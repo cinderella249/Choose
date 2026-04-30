@@ -2,17 +2,20 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>選擇障礙 🎰🍜</title>
-<meta name="description" content="有選擇困難嗎？讓扭蛋機和籤筒幫你決定！">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<title>選擇障礙 😊</title>
+<meta name="description" content="今天去哪裡玩＋今天吃什麼，一站搞定！">
 <meta name="theme-color" content="#87CEEB" id="themeColorMeta">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="選擇障礙">
-<link rel="manifest" href="manifest.json">
-<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+
+<link rel="manifest" href="/Choose/manifest.json" crossorigin="use-credentials">
+<link rel="icon" type="image/png" sizes="32x32" href="/Choose/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Choose/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/Choose/icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;700;900&family=Fredoka+One&display=swap" rel="stylesheet">
@@ -974,7 +977,7 @@ function switchTab(tab) {
 <!-- PWA Service Worker -->
 <script>
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+  window.addEventListener('load', () => navigator.serviceWorker.register('/Choose/sw.js').catch(()=>{}));
 }
 let _pwaPrompt = null;
 window.addEventListener('beforeinstallprompt', e => {

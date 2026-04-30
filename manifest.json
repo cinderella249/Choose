@@ -1,17 +1,38 @@
 {
   "name": "選擇障礙",
   "short_name": "選擇障礙",
-  "description": "有選擇困難嗎？讓扭蛋機和籤筒幫你決定今天去哪裡、吃什麼！",
-  "start_url": "./index.html",
+  "description": "今天去哪裡玩＋今天吃什麼，一站搞定！",
+  "start_url": "/Choose/",
+  "scope": "/Choose/",
   "display": "standalone",
-  "background_color": "#FFD94A",
+  "background_color": "#87CEEB",
   "theme_color": "#87CEEB",
   "orientation": "portrait-primary",
   "lang": "zh-TW",
-  "categories": ["entertainment", "lifestyle"],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+    {
+      "src": "/Choose/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Choose/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Choose/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Choose/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
