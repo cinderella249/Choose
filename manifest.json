@@ -1,20 +1,25 @@
 {
   "name": "選擇障礙",
   "short_name": "選擇障礙",
-  "start_url": ".",
+  "description": "有選擇困難嗎？讓扭蛋機和籤筒幫你決定！",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#D4924B",
   "theme_color": "#87CEEB",
+  "orientation": "portrait-primary",
+  "lang": "zh-TW",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
