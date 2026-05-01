@@ -1,0 +1,20 @@
+{
+  "name": "選擇障礙",
+  "short_name": "選擇障礙",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#D4924B",
+  "theme_color": "#87CEEB",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
